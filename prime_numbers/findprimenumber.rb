@@ -44,7 +44,7 @@ loop do
   input = gets.chomp
 
   begin
-    # convert command line entry to Integer to pass into method
+    # convert command line entry to integer to pass into method
     sec = Integer(input)
     find_prime_number(sec)
     break
