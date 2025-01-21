@@ -44,5 +44,6 @@ The migration files can be found in db/migrate as well as schema.db in the db di
 
 • Find all of the journal entries of all of the clients of a particular provider, sorted by date posted
 
-`provider = Provider.find(provider_id)
-journal_entries = JournalEntry.includes(client: :provider).where(clients: { provider_id: provider.id }).order('journal_entries.created_at DESC')`
+`provider = Provider.find(provider_id)`
+
+`journal_entries = JournalEntry.includes(client: :provider).where(clients: { provider_id: provider.id }).order('journal_entries.created_at DESC')`
