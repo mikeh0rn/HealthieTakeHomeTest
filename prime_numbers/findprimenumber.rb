@@ -28,7 +28,7 @@ def find_prime_number(seconds)
       puts "The current largest prime number is #{largest_prime_number_found}"
       puts "____________________________________"
     end
-    #increase current_number by 1 to check next number in the loop
+    # increase current_number by 1 to check next number in the loop
     current_number += 1 
   end
 
@@ -38,7 +38,7 @@ def find_prime_number(seconds)
 end
 
 
-# Prompt for testing
+# command line prompt for testing
 loop do
   print "Find the largest prime number over any number of seconds. How many seconds would like to run this function for? "
   input = gets.chomp
@@ -48,7 +48,7 @@ loop do
     sec = Integer(input)
     find_prime_number(sec)
     break
-    # This will raise an error if input cannot be converted to a valid integer for the method
+    # error raised if input cannot be converted to a valid integer for the method
     # example: "hello" is entered instead of 5, prompt will fire up again.
   rescue ArgumentError
     puts "Invalid. Please enter a number."
