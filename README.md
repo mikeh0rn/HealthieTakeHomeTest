@@ -2,10 +2,14 @@
 Solutions_Support_Engineer_Candidate_Take-Home_Test
 
 ## Prime Number Finder
-### Access `findprimenumber.rb` in the `prime_numbers` dir.
-### To test: Navigate to prime_numbers dir and run `ruby findprimenumber.rb`
-### This will trigger a command line prompt where you are asked to enter a number to pass into the find_prime_number function.
-### Line-by-line commented pseudo code is labeled in the ruby file.
+
+Access `findprimenumber.rb` in the `prime_numbers` dir.
+
+To test: Navigate to prime_numbers dir and run `ruby findprimenumber.rb`
+
+This will trigger a command line prompt where you are asked to enter a number to pass into the find_prime_number function.
+
+Line-by-line commented pseudo code is labeled in the ruby file.
 
 ## Class design
 ### Access the rails application by navigating to the `healthie_assessment` dir.
