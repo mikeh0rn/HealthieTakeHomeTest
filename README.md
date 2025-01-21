@@ -35,7 +35,7 @@ https://medium.com/unagi/say-goodbye-to-complex-regex-simplifying-email-validati
 
 ## Writing Challenge
 
-Access `writing_challenge.txt` in the root dir to access the questions and answers for all 3 questions.
+Access `writing_challenge.txt` in the root dir to access the questions and answers for all 3 writing challenge questions.
 
 ## Prime Number Finder
 
