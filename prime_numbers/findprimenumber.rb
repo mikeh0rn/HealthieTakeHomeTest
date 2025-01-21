@@ -44,11 +44,13 @@ loop do
   input = gets.chomp
 
   begin
-    sec = Integer(input)  # This will raise an error if input is not a valid integer
+    # convert command line entry to Integer to pass into method
+    sec = Integer(input)
     find_prime_number(sec)
     break
+    # This will raise an error if input cannot be converted to a valid integer for the method
+    # example: "hello" is entered instead of 5, prompt will fire up again.
   rescue ArgumentError
-    # Handle the case where input is not a valid integer
     puts "Invalid. Please enter a number."
   end
 end
