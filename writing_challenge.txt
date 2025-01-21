@@ -21,7 +21,7 @@ Cons:
 If you wanted to improve the performance of a web app you were working on, what are some
 things you would look at / try?
 
-To improve the performance of a website, I always start by checking the Network tab in Chrome DevTools or similar browser tools. Server response time is crucial, as is the amount of content being downloaded. If there is any latency, I run a page speed test using various available resources. If necessary, I also consider implementing a Content Delivery Network (CDN) to optimize website speed and ensure content is delivered securely and as quickly as possible via the nearest available servers.
+To improve the performance of a website, I always start by checking the Network tab in Chrome DevTools or similar browser tools. Server response time is crucial, as is the amount of content being downloaded. If there is any latency, I'd run a page speed test using various available resources. If necessary, I would also consider implementing a Content Delivery Network (CDN) to optimize website speed and ensure content is delivered securely and as quickly as possible via the nearest available servers.
 
 ----------------------------------------------------------------------
 
