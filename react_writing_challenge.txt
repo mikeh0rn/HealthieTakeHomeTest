@@ -1,0 +1,35 @@
+Describe why React is useful, and any thoughts on pros or cons you might have.
+
+At its core, React is useful as a component-based library that emphasizes the concepts of "state" and "props" for managing data flow between reusable components. It helps to minimize direct DOM manipulation and makes UI updates more efficient, especially in large-scale applications. React's virtual DOM is key to its high performance, enabling faster updates and rendering compared to traditional methods of DOM manipulation.
+
+Pros:
+• JSX for Readability: JSX simplifies the process of working with the DOM by combining HTML-like syntax with JavaScript, making the code more readable and easier to write. This declarative syntax allows developers to describe how the UI should look at any given point, rather than manipulating the DOM directly.
+
+• High Performance: React improves performance by minimizing manual DOM updates. Its virtual DOM allows React to efficiently compare changes and update only the necessary parts of the actual DOM, leading to faster rendering and less resource consumption.
+
+• Predictable Data Flow: React enforces a one-way data flow, where data flows from parent to child components through props, and each component manages its own state. This predictability makes the code easier to understand and maintain, especially as applications scale.
+
+Cons:
+• Frequent Updates/Breaking Changes: React is an open-source library with frequent updates, which can be challenging. These updates sometimes introduce issues or require refactoring. Relying on an open-source project that evolves quickly can create dependency risks, particularly in larger projects where updating React versions might require significant effort.
+
+• Complexity with Rails: In the context of using React with Ruby on Rails, React adds another layer of complexity. Rails traditionally handles server-side rendering and views, and introducing React requires managing another dependency and ensuring it integrates well with the Rails backend. This additional complexity can lead to challenges in debugging and deployment.
+
+• Complex State Management: As your application grows in size and complexity, managing state in React can become more difficult. While React provides basic state management tools, larger applications often require more advanced solutions such as Redux. These state management solutions add their own complexity and can increase the learning curve.
+
+----------------------------------------------------------------------
+
+If you wanted to improve the performance of a web app you were working on, what are some
+things you would look at / try?
+
+To improve the performance of a website, I always start by checking the Network tab in Chrome DevTools or similar browser tools. Server response time is crucial, as is the amount of content being downloaded. If there is any latency, I run a page speed test using various available resources. If necessary, I also consider implementing a Content Delivery Network (CDN) to optimize website speed and ensure content is delivered securely and as quickly as possible via the nearest available servers.
+
+----------------------------------------------------------------------
+
+In your experience, what do you consider to be the difference between a mid-level and
+senior-level engineer?
+
+In my experience, there are a few key areas that distinguish a mid-level engineer from a senior-level engineer. For starters, senior engineers tend to have more experience with complex system design and advanced debugging/testing skills. They are also more adept at thinking about the bigger picture, particularly regarding the scalability of an application, as opposed to focusing solely on individual tasks.
+
+For example, I would expect a senior engineer to proactively consider aspects like content delivery, advanced refactoring techniques, and best practices for writing DRY code and ensuring security.
+
+Lastly, I believe the ability to mentor junior team members is a key differentiator between mid-level and senior engineers. Senior engineers are not only capable of guiding others through challenging issues, but they also teach how to identify problems, follow proper protocols, and navigate complex situations. This mentoring role is a clear point of separation.
