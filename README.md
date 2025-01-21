@@ -4,7 +4,7 @@
 
 • React Coursera Nanodegree Course Materials: I received a certification in 2018 - https://www.udacity.com/course/react-nanodegree--nd019
 
-### Note: If I were designing the `find_prime_numbers` function from the first problem in a production app, I would rely less on manually determining if a number is prime and instead, I may lean on Ruby's Prime module for maximum efficiency inside of the loop:
+Note: If I were designing the `find_prime_numbers` function from the first problem in a production app, I would rely less on manually determining if a number is prime and instead, I may lean on Ruby's Prime module for maximum efficiency inside of the loop:
 https://ruby-doc.org/stdlib-2.5.1/libdoc/prime/rdoc/Prime.html
 
 Example:
